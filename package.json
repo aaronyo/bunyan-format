@@ -1,0 +1,27 @@
+{
+  "name": "@aaronyo/bunyan-format",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:aaronyo/bunyan-format",
+  "author": "Aaron Boyd <aaron.t.boyd@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "bunyan-format": "bin/bunyan-format"
+  },
+  "scripts": {
+    "postinstall": "npm run build-ts",
+    "build-ts": "tsc",
+    "watch-ts": "tsc -w"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.140",
+    "@types/node": "^12.7.8",
+    "lodash": "^4.17.15",
+    "tsc": "^1.20150623.0"
+  }
+}
