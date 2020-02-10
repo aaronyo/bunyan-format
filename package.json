@@ -1,6 +1,6 @@
 {
   "name": "@aaronyo/bunyan-format",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "index.js",
   "repository": "git@github.com:aaronyo/bunyan-format",
   "author": "Aaron Boyd <aaron.t.boyd@gmail.com>",
