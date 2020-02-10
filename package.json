@@ -9,8 +9,8 @@
     "bunyan-format": "bin/bunyan-format"
   },
   "scripts": {
-    "postinstall": "npm run build-ts",
     "build-ts": "tsc",
+    "prepublish": "yarn run build-ts",
     "watch-ts": "tsc -w"
   },
   "devDependencies": {
